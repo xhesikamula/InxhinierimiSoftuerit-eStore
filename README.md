@@ -1,6 +1,4 @@
 # InxhinierimiSoftuerit-eStore
-eCommerce Website
-
 Introduction
 
 This is a fully featured eCommerce website developed in PHP. It provides an intuitive and user-friendly platform for customers to browse and purchase products online. The website features an extensive product catalog, secure user authentication, advanced product search and filtering, shopping cart functionality, user profile management, credit card payment form, and integrated PayPal payment plus transportation details and process included as part of PayPal payment (updated version based on our promises given as part of Assignment 2 - Diagrams).
