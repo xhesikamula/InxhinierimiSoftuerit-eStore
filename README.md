@@ -24,8 +24,8 @@ This project is an eCommerce shopping cart website designed to provide users wit
 
 ## Technical Details
 - **Frontend**: HTML, CSS (Responsive Design)
-- **Backend**: Python, Django
-- **Database**: PostgreSQL
+- **Backend**: PHP
+- **Database**: mySQL
 - **API Integration**: Payment gateways (PayPal, Stripe, etc.)
 - **Version Control**: Git & GitHub
 
