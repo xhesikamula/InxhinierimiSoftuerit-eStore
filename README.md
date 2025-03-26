@@ -1,20 +1,81 @@
 # InxhinierimiSoftuerit-eStore
-Introduction
+# eCommerce Shopping Cart Website
 
-This is a fully featured eCommerce website developed in PHP. It provides an intuitive and user-friendly platform for customers to browse and purchase products online. The website features an extensive product catalog, secure user authentication, advanced product search and filtering, shopping cart functionality, user profile management, credit card payment form, and integrated PayPal payment plus transportation details and process included as part of PayPal payment (updated version based on our promises given as part of Assignment 2 - Diagrams).
+## Project Overview
+This project is an eCommerce shopping cart website designed to provide users with a seamless online shopping experience. The platform allows customers to browse and purchase products online, while administrators and suppliers can manage inventory, orders, and user accounts.
 
-Key Features
+## Features
+### Functional Requirements
+- **User Registration & Authentication**: Customers, suppliers, and admins can create accounts and log in securely.
+- **Product Catalog**: Products are categorized with detailed descriptions, images, and prices.
+- **Shopping Cart Functionality**: Users can add, modify, and remove items from their cart.
+- **Order Processing & Payments**: Secure checkout process with multiple payment options.
+- **Order Tracking**: Users can monitor the status of their orders.
+- **Inventory Management**: Suppliers can update stock levels.
+- **Admin Dashboard**: Admins can manage users, products, and orders.
 
-User Authentication: Users can register and log in to the website to have a personalized shopping experience.
+### Non-Functional Requirements
+- **Performance**: The website loads quickly and operates efficiently.
+- **Security**: User data and transactions are secured with encryption.
+- **Usability**: The interface is user-friendly and accessible.
+- **Responsiveness**: The site is optimized for desktop and mobile devices.
+- **Compatibility**: The site supports multiple browsers and platforms.
+- **Compliance**: Follows relevant legal and regulatory standards.
 
-Product Catalog: A wide array of products listed, each with detailed descriptions and prices.
+## Technical Details
+- **Frontend**: HTML, CSS (Responsive Design)
+- **Backend**: Python, Django
+- **Database**: PostgreSQL
+- **API Integration**: Payment gateways (PayPal, Stripe, etc.)
+- **Version Control**: Git & GitHub
 
-Advanced Search & Filtering: Users can easily search for products and filter results based on various criteria.
+## Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/ecommerce-shopping.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd ecommerce-shopping
+   ```
+3. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Set up the database:
+   ```sh
+   python manage.py migrate
+   ```
+5. Run the development server:
+   ```sh
+   python manage.py runserver
+   ```
+6. Open your browser and go to `http://127.0.0.1:8000/`
 
-Shopping Cart: Products can be added to a shopping cart, with the ability to adjust quantities or remove items as needed.
+## Usage
+- **Users**: Browse products, add items to the cart, and complete purchases.
+- **Admins**: Manage products, users, and orders from the admin panel.
+- **Suppliers**: Update inventory and stock levels.
 
-User Profile Management: Users can manage their profiles, updating personal details as required.
+## Diagrams & Documentation
+- **Use Case Diagrams**
+- **ER Diagram**
+- **Sequence Diagrams**
+- **System Architecture**
 
-Checkout & Payment: The checkout process collects necessary shipping details and uses integrated PayPal for secure payment.
+## Contributors
+- **Elma Ejupi**
+- **Xhesika Mula**
 
-Order History & Tracking: Users can view their past orders and track the status of current orders.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## References
+- [Ecommerce4All](https://ecommerce4all-ks.com/module/regulation/laws/)
+- [Software Engineering Essentials](https://books.google.al/books/about/Essentials_of_Software_Engineering.html)
+- [EdrawMax - Microservices Architecture](https://www.edrawsoft.com/article/microservices-architecture-diagram.html)
+
+---
+### Notes
+This project was developed as part of a university assignment for the **Software Engineering** course at the **University of Prishtina, Faculty of Mathematical-Natural Sciences, Department of Computer Science**.
+
